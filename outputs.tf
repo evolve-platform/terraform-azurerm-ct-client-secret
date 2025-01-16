@@ -1,15 +1,19 @@
 output "secret_id" {
-  value = azurerm_key_vault_secret.this.id
+  description = "The ID of the secret"
+  value       = azurerm_key_vault_secret.this.id
 }
 
 output "secret_name" {
-  value = azurerm_key_vault_secret.this.name
+  description = "The name of the secret"
+  value       = azurerm_key_vault_secret.this.name
 }
 
 output "scope" {
-  value = commercetools_api_client.this.scope
+  description = "The commercetools scope"
+  value       = commercetools_api_client.this.scope
 }
 
 output "client_id" {
-  value = commercetools_api_client.this.id
+  description = "The commercetools client id"
+  value       = commercetools_api_client.this.id
 }
