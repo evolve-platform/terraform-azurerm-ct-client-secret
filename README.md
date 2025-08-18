@@ -42,5 +42,6 @@ No modules.
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | n/a |
 | <a name="output_scope"></a> [scope](#output\_scope) | n/a |
 | <a name="output_secret_id"></a> [secret\_id](#output\_secret\_id) | n/a |
+| <a name="output_secret_name"></a> [secret\_resource_id](#output\_secret\_resource\_id) | Versioned variant of the secret id |
 | <a name="output_secret_name"></a> [secret\_name](#output\_secret\_name) | n/a |
 <!-- END_TF_DOCS -->

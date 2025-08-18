@@ -2,6 +2,10 @@ output "secret_id" {
   value = azurerm_key_vault_secret.this.id
 }
 
+output "secret_resource_id" {
+  value = azurerm_key_vault_secret.this.resource_id
+}
+
 output "secret_name" {
   value = azurerm_key_vault_secret.this.name
 }
