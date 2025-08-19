@@ -3,7 +3,7 @@ output "secret_id" {
 }
 
 output "secret_resource_id" {
-  value = azurerm_key_vault_secret.this.resource_id
+  value       = azurerm_key_vault_secret.this.resource_id
   description = "The secret resource id, includes the version of the secret"
 }
 
