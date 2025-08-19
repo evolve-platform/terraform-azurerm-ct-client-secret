@@ -44,4 +44,5 @@ No modules.
 | <a name="output_secret_id"></a> [secret\_id](#output\_secret\_id) | n/a |
 | <a name="output_secret_name"></a> [secret\_name](#output\_secret\_name) | n/a |
 | <a name="output_secret_resource_id"></a> [secret\_resource\_id](#output\_secret\_resource\_id) | The secret resource id, includes the version of the secret |
+| <a name="output_secret_versionless_id"></a> [secret\_versionless\_id](#output\_secret\_versionless\_id) | The secret versionless id, can be used to auto rotate secrets |
 <!-- END_TF_DOCS -->
