@@ -7,6 +7,11 @@ output "secret_resource_id" {
   description = "The secret resource id, includes the version of the secret"
 }
 
+output "secret_versionless_id" {
+  value       = azurerm_key_vault_secret.this.versionless_id
+  description = "The secret versionless id, can be used to auto rotate secrets"
+}
+
 output "secret_name" {
   value = azurerm_key_vault_secret.this.name
 }
